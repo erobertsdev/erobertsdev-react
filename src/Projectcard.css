@@ -1,0 +1,69 @@
+.Projectcard {
+	border: 1px solid #2f2f2fb7;
+	border-radius: 3px;
+	background-size: 100% 200%;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(50%, #465c69c2),
+		color-stop(50%, #2f2f2f)
+	);
+	background-image: -o-linear-gradient(top, #465c69c2 50%, #2f2f2f 50%);
+	background-image: linear-gradient(to bottom, #465c69c2 50%, #2f2f2f 50%);
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	-webkit-box-shadow: 8px 8px 8px #2f2f2f;
+	box-shadow: 8px 8px 8px #2f2f2f;
+	width: 300px;
+	min-width: 250px;
+	margin: 30px 50px;
+	padding: 30px;
+}
+
+.Projectcard:hover {
+	background-position: 0 -100%;
+	-webkit-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	transform: translateY(-10px);
+	-webkit-box-shadow: 10px 13px 20px #2f2f2f;
+	box-shadow: 10px 13px 20px #2f2f2f;
+}
+
+.Projectcard-title {
+	font-size: 3rem;
+	color: #92b4a7;
+	padding: 20px;
+	padding-bottom: 7px;
+}
+
+.Projectcard-hr {
+	color: #e8f1f2;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.Projectcard-desc {
+	padding: 10px;
+	line-height: 1.5rem;
+}
+
+.Projectcard-list {
+	padding: 10px;
+	list-style: none;
+	color: #e8f1f2;
+}
+
+.Projectcard-icon {
+	color: #e8f1f28a;
+	font-size: 4rem;
+	padding: 10px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.Projectcard-icon:hover {
+	color: #e27e5f;
+}

@@ -1,0 +1,45 @@
+.Devcard {
+	border: 1px solid #2f2f2fb7;
+	border-radius: 3px;
+	background-size: 100% 200%;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(50%, #465c69c2),
+		color-stop(50%, #2f2f2f)
+	);
+	background-image: -o-linear-gradient(top, #465c69c2 50%, #2f2f2f 50%);
+	background-image: linear-gradient(to bottom, #465c69c2 50%, #2f2f2f 50%);
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	-webkit-box-shadow: 8px 8px 8px #2f2f2f;
+	box-shadow: 8px 8px 8px #2f2f2f;
+	width: 350px;
+	min-width: 250px;
+	height: 250px;
+	margin: 30px 30px;
+}
+
+.Devcard:hover {
+	background-position: 0 -100%;
+	-webkit-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	transform: translateY(-10px);
+	-webkit-box-shadow: 10px 13px 20px #2f2f2f;
+	box-shadow: 10px 13px 20px #2f2f2f;
+}
+
+.Devcard-title {
+	margin-top: 30px;
+	font-size: 3rem;
+	color: #92b4a7;
+	padding: 20px;
+	padding-bottom: 7px;
+}
+
+.Devcard-icon {
+	color: #8e9b90;
+	font-size: 10rem;
+}
