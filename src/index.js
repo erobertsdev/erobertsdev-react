@@ -7,4 +7,4 @@ import './fontawesome/css/fontawesome.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-serviceWorker.unregister();
+serviceWorker.register();
