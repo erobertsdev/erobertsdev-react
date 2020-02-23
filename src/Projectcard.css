@@ -67,3 +67,9 @@
 .Projectcard-icon:hover {
 	color: #e27e5f;
 }
+
+@media all and (max-width: 750px) {
+	.Projectcard {
+		margin: 30px 10px;
+	}
+}
