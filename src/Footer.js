@@ -4,7 +4,7 @@ import './Footer.css';
 class Footer extends Component {
 	render() {
 		return (
-			<div className="Footer">
+			<div className="Footer" id="footer">
 				<p className="Footer-copyright">&copy; 2020 Elias Roberts</p>
 				<p className="Footer-p">
 					<a

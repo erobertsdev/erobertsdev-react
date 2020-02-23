@@ -39,7 +39,7 @@ class Development extends Component {
 	};
 	render() {
 		return (
-			<div className="Development">
+			<div className="Development" id="development">
 				<h3 className="Development-title">Development</h3>
 				<div className="Development-cards">
 					{this.props.development.map((card) => (

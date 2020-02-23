@@ -49,7 +49,7 @@ class Projects extends Component {
 	};
 	render() {
 		return (
-			<div className="Projects">
+			<div className="Projects" id="projects">
 				<h3 className="Projects-title">Projects</h3>
 				<div className="Projects-cards">
 					{this.props.projects.map((card) => (

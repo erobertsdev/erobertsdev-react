@@ -4,7 +4,7 @@ import './Contact.css';
 class Contact extends Component {
 	render() {
 		return (
-			<div className="Contact">
+			<div className="Contact" id="contact">
 				<h3 className="Contact-title">Contact</h3>
 				<form className="Contact-form" action="https://formspree.io/moqapzaz" method="POST">
 					<label>
