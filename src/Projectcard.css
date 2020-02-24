@@ -16,8 +16,8 @@
 	transition: all .3s;
 	-webkit-box-shadow: 8px 8px 8px #2f2f2f;
 	box-shadow: 8px 8px 8px #2f2f2f;
-	width: 300px;
-	min-width: 300px;
+	width: 350px;
+	min-width: 350px;
 	margin: 30px 50px;
 	padding: 30px;
 }
@@ -32,7 +32,7 @@
 }
 
 .Projectcard-title {
-	font-size: 3rem;
+	font-size: 3.5rem;
 	color: #92b4a7;
 	padding: 20px;
 	padding-bottom: 7px;
@@ -57,7 +57,7 @@
 
 .Projectcard-icon {
 	color: #e8f1f28a;
-	font-size: 4rem;
+	font-size: 5rem;
 	padding: 10px;
 	-webkit-transition: all .5s;
 	-o-transition: all .5s;

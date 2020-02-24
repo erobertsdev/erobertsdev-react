@@ -7,6 +7,7 @@ class Projectcard extends Component {
 			<div className="Projectcard">
 				<a href={this.props.url} rel="noopener noreferrer" target="_blank">
 					<h3 className="Projectcard-title">{this.props.title}</h3>
+					<i className={this.props.icon} />
 					<hr className="Projectcard-hr" />
 					<p className="Projectcard-desc">{this.props.desc}</p>
 				</a>
